@@ -56,27 +56,58 @@ io.use((socket, next) => {
 io.on('connection', socket => {
   console.log('Conectado:', socket.username);
 
+  // Enviar histórico de mensagens para o usuário que acabou de se conectar
+  db2.all(
+    `SELECT * FROM messages 
+     WHERE receiver IS NULL OR receiver = ? OR sender = ? 
+     ORDER BY timestamp ASC`,
+    [socket.username, socket.username],
+    (err, rows) => {
+      if (err) {
+        console.error('Erro ao buscar histórico:', err);
+        return;
+      }
+
+      // Garantir que 'from' sempre exista
+      rows.forEach(msg => {
+        socket.emit('private_message', {
+          from: msg.sender || 'Sistema',
+          to: msg.receiver,
+          message: msg.message,
+          timestamp: msg.timestamp
+        });
+      });
+    }
+  );
+
   socket.on('private_message', ({ to, message }) => {
-    const msg = {
-      from: socket.username,
-      to,
-      message,
-      timestamp: Date.now()
-    };
+  const msg = {
+    from: socket.username,
+    to: to || null,
+    message,
+    timestamp: Date.now()
+  };
 
-    db2.run(
-      `INSERT INTO messages (sender, receiver, message, timestamp)
-      VALUES (?, ?, ?, ?)`,
-      [msg.from, msg.to, msg.message, msg.timestamp]
-    );
+  db2.run(
+    `INSERT INTO messages (sender, receiver, message, timestamp)
+     VALUES (?, ?, ?, ?)`,
+    [msg.from, msg.to, msg.message, msg.timestamp]
+  );
 
+  if (to) {
+    // mensagem privada
     const targetSocket = users.get(to);
     if (targetSocket) {
       io.to(targetSocket).emit('private_message', msg);
     }
+  } else {
+    // broadcast para todos, exceto quem enviou
+    socket.broadcast.emit('private_message', msg);
+  }
 
-    socket.emit('private_message', msg);
-  });
+  // envia para quem enviou também
+  socket.emit('private_message', msg);
+});
 
   socket.on('disconnect', () => {
   if (users.get(socket.username) === socket.id) {

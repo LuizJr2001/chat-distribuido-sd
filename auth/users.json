@@ -3,6 +3,38 @@
     {
       "username": "luiz",
       "password": "$2b$10$rDLngHwD5EyS/keckQQy/.3nN3nZpg/iTfGWKX3bJyLiXwB.0vYcO"
+    },
+    {
+      "username": "Ana",
+      "password": "$2b$10$osTHkQ7yQG3M43hzq4YPFeMaHeDVbXRUKdopDl5xEF1e0muBxq86q"
+    },
+    {
+      "username": "Luiz",
+      "password": "$2b$10$9Cxk9t5eRUYb.5hOQ7abruzcnpZ5/KQXR8/KQMGK8gK6bID6D/jp6"
+    },
+    {
+      "username": "michele",
+      "password": "$2b$10$21NEBZ2tqrSltuPEpcxdh.x9URXM1Bu9frAyppdPeZ6wbwDKYxTV2"
+    },
+    {
+      "username": "Raiana",
+      "password": "$2b$10$xtq9RPozM5kX4KFAfaaTwONI9qEUhfi4Sx2a74BRBAzGPpdD0WyQa"
+    },
+    {
+      "username": "integ-tester",
+      "password": "$2b$10$0gX0VtNiYQHEAGeArHo7m.WT6hrpytkUJOtynACcdjmz2jEJRXysS"
+    },
+    {
+      "username": "load_user_0",
+      "password": "$2b$10$ea7MqEAoZh5PbKPkkt8.0.wXmfFKLlQ98BH50.0k2U4ad263UJS2u"
+    },
+    {
+      "username": "load_user_1",
+      "password": "$2b$10$xsGW7701mb5/Nut2niHMyu19yQXewwZydNt.vqaNS8rjXJ7Vup5B6"
+    },
+    {
+      "username": "load_user_2",
+      "password": "$2b$10$4RUR37APEBEaMwqFn0dPROKBDcCp/S0nmyvn7kFtMsbVTkwoWtkQ2"
     }
   ]
 }

@@ -141,17 +141,23 @@ async function login() {
   document.getElementById('chatArea').classList.remove('hidden');
 
   socket.on('private_message', msg => {
+  if (msg.from !== username) { // só adiciona se não for você
     addMessage(msg.from + ': ' + msg.message);
-  });
+  }
+});
 }
 
 function send() {
+  const destinatario = to.value.trim();
+  const mensagem = msg.value.trim();
+  if (!mensagem) return;
+
   socket.emit('private_message', {
-    to: to.value,
-    message: msg.value
+    to: destinatario || null,
+    message: mensagem
   });
 
-  addMessage('Você: ' + msg.value);
+  addMessage('Você: ' + mensagem);
   msg.value = '';
 }
 

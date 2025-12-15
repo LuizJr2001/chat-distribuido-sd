@@ -1,4 +1,3 @@
-// chat/test/integration.js
 const fetch = require("node-fetch");
 const io = require("socket.io-client");
 
@@ -49,11 +48,14 @@ const PASS = "123";
     });
 
     socket.on("private_message", (msg) => {
+      // Ignorar mensagens que não foram enviadas por este usuário
+      if (msg.from !== USER) return;
+
       console.log("📩 Recebeu:", msg);
 
+      // Validar mensagem de teste
       if (
-        msg.from === USER &&
-        msg.to === USER &&
+        (msg.to === USER || msg.to === null) &&
         msg.message.includes("mensagem de teste")
       ) {
         console.log("🎉 OK — teste de integração passou");
