@@ -72,3 +72,4 @@ Este projeto foi desenvolvido com fins acadêmicos para a disciplina de
 Sistemas Distribuídos, demonstrando conceitos como comunicação distribuída,
 autenticação, persistência de dados e sistemas em tempo real.# chat-distribuido-sd
 # chat-distribuido-sd
+# chat-distribuido-sd
