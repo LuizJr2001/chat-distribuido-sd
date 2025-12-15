@@ -1,0 +1,267 @@
+[
+  {
+    "user": "Joao",
+    "message": "Oi",
+    "timestamp": "2025-12-14T18:38:01.010Z"
+  },
+  {
+    "user": "Joao",
+    "message": "Oi",
+    "timestamp": "2025-12-14T18:38:01.057Z"
+  },
+  {
+    "user": "Joao",
+    "message": "Oi",
+    "timestamp": "2025-12-14T18:38:01.057Z"
+  },
+  {
+    "user": "Ana",
+    "message": "Ola",
+    "timestamp": "2025-12-14T18:38:01.250Z"
+  },
+  {
+    "user": "Ana",
+    "message": "Ola",
+    "timestamp": "2025-12-14T18:38:01.255Z"
+  },
+  {
+    "user": "Ana",
+    "message": "Ola",
+    "timestamp": "2025-12-14T18:38:01.256Z"
+  },
+  {
+    "user": "Ana",
+    "message": "Ola",
+    "timestamp": "2025-12-14T18:38:01.257Z"
+  },
+  {
+    "user": "Ana",
+    "message": "Ola",
+    "timestamp": "2025-12-14T18:38:01.257Z"
+  },
+  {
+    "user": "Luiz",
+    "message": "43",
+    "timestamp": "2025-12-14T18:38:21.343Z"
+  },
+  {
+    "user": "Ana",
+    "message": "Licor",
+    "timestamp": "2025-12-14T18:38:22.508Z"
+  },
+  {
+    "user": "Luiz",
+    "message": "43",
+    "timestamp": "2025-12-14T18:38:23.757Z"
+  },
+  {
+    "user": "Teste",
+    "text": "Mensagem de teste",
+    "timestamp": "2025-12-14T20:10:12.777Z"
+  },
+  {
+    "user": "User8",
+    "text": "Mensagem 8",
+    "timestamp": "2025-12-14T20:13:48.755Z"
+  },
+  {
+    "user": "User0",
+    "text": "Mensagem 0",
+    "timestamp": "2025-12-14T20:13:48.765Z"
+  },
+  {
+    "user": "User1",
+    "text": "Mensagem 1",
+    "timestamp": "2025-12-14T20:13:48.781Z"
+  },
+  {
+    "user": "User2",
+    "text": "Mensagem 2",
+    "timestamp": "2025-12-14T20:13:48.786Z"
+  },
+  {
+    "user": "User18",
+    "text": "Mensagem 18",
+    "timestamp": "2025-12-14T20:13:48.788Z"
+  },
+  {
+    "user": "User19",
+    "text": "Mensagem 19",
+    "timestamp": "2025-12-14T20:13:48.789Z"
+  },
+  {
+    "user": "User3",
+    "text": "Mensagem 3",
+    "timestamp": "2025-12-14T20:13:48.793Z"
+  },
+  {
+    "user": "User4",
+    "text": "Mensagem 4",
+    "timestamp": "2025-12-14T20:13:48.797Z"
+  },
+  {
+    "user": "User7",
+    "text": "Mensagem 7",
+    "timestamp": "2025-12-14T20:13:48.801Z"
+  },
+  {
+    "user": "User5",
+    "text": "Mensagem 5",
+    "timestamp": "2025-12-14T20:13:48.806Z"
+  },
+  {
+    "user": "User6",
+    "text": "Mensagem 6",
+    "timestamp": "2025-12-14T20:13:48.818Z"
+  },
+  {
+    "user": "User9",
+    "text": "Mensagem 9",
+    "timestamp": "2025-12-14T20:13:48.821Z"
+  },
+  {
+    "user": "User10",
+    "text": "Mensagem 10",
+    "timestamp": "2025-12-14T20:13:48.823Z"
+  },
+  {
+    "user": "User11",
+    "text": "Mensagem 11",
+    "timestamp": "2025-12-14T20:13:48.825Z"
+  },
+  {
+    "user": "User12",
+    "text": "Mensagem 12",
+    "timestamp": "2025-12-14T20:13:48.827Z"
+  },
+  {
+    "user": "User13",
+    "text": "Mensagem 13",
+    "timestamp": "2025-12-14T20:13:48.831Z"
+  },
+  {
+    "user": "User14",
+    "text": "Mensagem 14",
+    "timestamp": "2025-12-14T20:13:48.833Z"
+  },
+  {
+    "user": "User15",
+    "text": "Mensagem 15",
+    "timestamp": "2025-12-14T20:13:48.836Z"
+  },
+  {
+    "user": "User16",
+    "text": "Mensagem 16",
+    "timestamp": "2025-12-14T20:13:48.838Z"
+  },
+  {
+    "user": "User17",
+    "text": "Mensagem 17",
+    "timestamp": "2025-12-14T20:13:48.839Z"
+  },
+  {
+    "user": "Teste",
+    "text": "Mensagem de teste",
+    "timestamp": "2025-12-14T20:15:00.942Z"
+  },
+  {
+    "user": "User0",
+    "text": "Mensagem 0",
+    "timestamp": "2025-12-14T20:15:09.151Z"
+  },
+  {
+    "user": "User1",
+    "text": "Mensagem 1",
+    "timestamp": "2025-12-14T20:15:09.155Z"
+  },
+  {
+    "user": "User2",
+    "text": "Mensagem 2",
+    "timestamp": "2025-12-14T20:15:09.159Z"
+  },
+  {
+    "user": "User3",
+    "text": "Mensagem 3",
+    "timestamp": "2025-12-14T20:15:09.161Z"
+  },
+  {
+    "user": "User4",
+    "text": "Mensagem 4",
+    "timestamp": "2025-12-14T20:15:09.164Z"
+  },
+  {
+    "user": "User5",
+    "text": "Mensagem 5",
+    "timestamp": "2025-12-14T20:15:09.167Z"
+  },
+  {
+    "user": "User6",
+    "text": "Mensagem 6",
+    "timestamp": "2025-12-14T20:15:09.171Z"
+  },
+  {
+    "user": "User7",
+    "text": "Mensagem 7",
+    "timestamp": "2025-12-14T20:15:09.174Z"
+  },
+  {
+    "user": "User8",
+    "text": "Mensagem 8",
+    "timestamp": "2025-12-14T20:15:09.177Z"
+  },
+  {
+    "user": "User9",
+    "text": "Mensagem 9",
+    "timestamp": "2025-12-14T20:15:09.179Z"
+  },
+  {
+    "user": "User10",
+    "text": "Mensagem 10",
+    "timestamp": "2025-12-14T20:15:09.181Z"
+  },
+  {
+    "user": "User11",
+    "text": "Mensagem 11",
+    "timestamp": "2025-12-14T20:15:09.187Z"
+  },
+  {
+    "user": "User12",
+    "text": "Mensagem 12",
+    "timestamp": "2025-12-14T20:15:09.197Z"
+  },
+  {
+    "user": "User13",
+    "text": "Mensagem 13",
+    "timestamp": "2025-12-14T20:15:09.199Z"
+  },
+  {
+    "user": "User14",
+    "text": "Mensagem 14",
+    "timestamp": "2025-12-14T20:15:09.203Z"
+  },
+  {
+    "user": "User15",
+    "text": "Mensagem 15",
+    "timestamp": "2025-12-14T20:15:09.206Z"
+  },
+  {
+    "user": "User16",
+    "text": "Mensagem 16",
+    "timestamp": "2025-12-14T20:15:09.208Z"
+  },
+  {
+    "user": "User17",
+    "text": "Mensagem 17",
+    "timestamp": "2025-12-14T20:15:09.210Z"
+  },
+  {
+    "user": "User18",
+    "text": "Mensagem 18",
+    "timestamp": "2025-12-14T20:15:09.212Z"
+  },
+  {
+    "user": "User19",
+    "text": "Mensagem 19",
+    "timestamp": "2025-12-14T20:15:09.214Z"
+  }
+]

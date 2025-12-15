@@ -1,0 +1,22 @@
+{
+  "name": "chat-trabalho",
+  "version": "1.0.0",
+  "description": "Sistema de chat com autenticação e WebSocket",
+  "main": "index.js",
+ "scripts": {
+  "auth": "cd auth && node index.js",
+  "chat": "cd chat && node index.js",
+  "frontend": "wslview frontend/index.html",
+  "start": "concurrently \"npm run auth\" \"npm run chat\" \"npm run frontend\""
+},
+  "dependencies": {
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "socket.io": "^4.7.2"
+  },
+  "author": "Seu Nome",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
